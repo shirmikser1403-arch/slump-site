@@ -27,6 +27,14 @@
             background-repeat: repeat;
             background-position: center top;
             position: relative;
+
+            /* Кастомный курсор для всего сайта */
+            cursor: url('cursor.png'), auto;
+        }
+
+        /* Кастомный курсор для всех кликабельных элементов */
+        a, button, .social-button, .screenshot-item, input, select {
+            cursor: url('cursor.png'), pointer !important;
         }
 
         /* Затемнение поверх фона */
@@ -117,7 +125,7 @@
             background-color: #222222;
         }
 
-        /* Красный цвет для всех иконок в кнопках */
+        /* Красный цвет для иконок */
         .social-button i {
             font-size: 22px;
             color: #ff0000;
